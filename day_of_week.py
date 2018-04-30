@@ -13,7 +13,8 @@ def get_day():
 
 
     while True:
-        day = input("Day? (0-6) ")
+        day = input("This reminds you of which day is which.? Enter \
+        a number from 0-6 to get the corresponding day: ")
         try:
             day = int(day)
         except:
@@ -28,7 +29,7 @@ def get_day():
 
     exit = False
     while not exit:
-        day = input("Beginning loop 2. Day? (0-6) ")
+        day = input("This helps plan your day. Enter a number (0-6): ")
         try:
             day = int(day)
         except:
